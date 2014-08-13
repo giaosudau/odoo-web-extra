@@ -1,0 +1,11 @@
+<template>
+    <t t-extend="WebClient">
+        <t t-jquery="a.oe_logo" t-operation="after">
+            <!-- FOLD AND UNFOLD MENU-->
+            <div class="oe_toggle_secondary_menu">
+                <span class="oe_menu_fold" title="Fold menu">«</span>
+                <span class="oe_menu_unfold" title="Unfold menu">»</span>
+            </div>
+        </t>
+    </t>
+</template>

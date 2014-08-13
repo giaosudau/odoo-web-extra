@@ -1,0 +1,42 @@
+.hidden_element {
+    visibility: hidden
+}
+
+.openerp .oe_leftbar_folded {
+    display: block !important;
+    min-width: 20px !important;
+    width: 20px !important;
+    background: #f0eeee;
+    border-right: 1px solid #afafb6;
+    text-shadow: 0 1px 1px white;
+    position: relative;
+    height: 69% !important;
+    /* remove col-resize */
+    cursor: pointer;
+}
+
+.oe_toggle_secondary_menu {
+    position: relative;
+    float: right;
+    cursor: pointer;
+    width: 21px;
+    height: 21px;
+    z-index: 10;
+    background: transparent;
+    color: #7c7bad;
+    text-shadow: 0 1px 0 #333;
+    text-align: center;
+    font-size: 30px;
+    line-height: 18px;
+    right: 0;
+}
+
+.oe_leftbar .oe_toggle_secondary_menu span.oe_menu_unfold {
+    display: none;
+}
+
+.oe_leftbar > div {
+    cursor: col-resize;
+}
+
+
