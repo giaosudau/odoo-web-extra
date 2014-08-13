@@ -1,5 +1,5 @@
 {
-    'name': 'VNG Web Extra',
+    'name': 'Odoo Web Extra',
     'version': '1.0',
     'category': 'web',
     'complexity': "easy",
@@ -8,7 +8,7 @@ Extra web feature
 =================
 * Fold and unfold left menu
     """,
-    'author': 'VNG - MIS',
+    'author': 'giaosudau',
     'website': 'http://openerp.com',
     'depends': ['web'],
     'data': [],
