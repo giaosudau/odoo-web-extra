@@ -7,5 +7,15 @@
                 <script type="text/javascript" src="/vhr_web_extra/static/src/js/extra.js"></script>
             </xpath>
         </template>
+        <template id="menu_secondary" name="VNG Extra Toggle Bar" inherit_id="web.menu_secondary">
+            <xpath expr="//a[@class='oe_logo']" position="after">
+                <!-- FOLD AND UNFOLD MENU-->
+                <div class="oe_toggle_secondary_menu">
+                    <span class="oe_menu_fold" title="Fold menu">«</span>
+                    <span class="oe_menu_unfold" title="Unfold menu">»</span>
+                </div>
+            </xpath>
+        </template>
+
     </data>
 </openerp>
